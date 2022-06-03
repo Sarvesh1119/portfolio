@@ -1,0 +1,49 @@
+.about{
+    margin-top:90px;
+    width:100%;
+    height:150px;
+    margin-bottom: 160px;
+}
+.about h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+}
+.desc{
+    color:#a8a8b3;
+}
+.learn-more-button{
+    margin-top:25px;
+    width:120px;
+    height:30px; 
+    border-style:none;
+    background-color:#7371e3;
+    border-radius:15px;
+    color:white;
+    font-weight:600;
+}
+
+@media screen and (max-width:400px){
+    .about{
+        margin-top:30px;
+        width:100%;
+        height:150px;
+        margin-bottom: 10px;
+    }
+    .about h2{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:23px;
+    }
+    .desc{
+        color:#a8a8b3;
+    }
+    .learn-more-button{
+        margin-top:25px;
+        width:100%;
+        height:30px; 
+        border-style:none;
+        background-color:#7371e3;
+        border-radius:15px;
+        color:white;
+        font-weight:600;
+    }
+}

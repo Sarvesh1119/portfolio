@@ -1,0 +1,182 @@
+.tech{
+    width:70%;
+    margin-top:-35px;
+    line-height: 28px;
+    color:rgba(197, 199, 197,0.9);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.domain{
+    display:flex;
+    list-style:none;
+    margin-top:5px;
+}
+.domain span{
+    margin-right:150px;
+    padding-left:0;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description{
+    display:flex;
+    list-style:none;
+    margin-top:10px;
+}
+.description span{
+    margin-left:-2px;
+    margin-right:140px;
+    padding-left:0;
+    font-size: 13px;
+    line-height: 18px;
+    color:#ededed;
+}
+.logo{
+    display:flex;
+    list-style:none;
+    margin-top:10px;
+    width:40px;
+}
+.logo div{
+    margin-top:60px;
+    margin-right:220px;
+    padding-left:0;
+    font-size: 17px;
+    font-weight: 550;
+}
+.brief{
+    margin-top:50px;
+}
+.time-line{
+    margin-top:30px;
+    display:flex;
+}
+.time-line span{
+    margin-right:130px;
+    font-size:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.time-line-desc{
+    margin-top:07px;
+    display:flex;
+    margin-bottom: 60px;
+}
+.time-line-desc span{
+    margin-right:30px;
+    text-align:left;
+    color:#d2d4d2;
+    font-size:12px;
+    width:150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-1{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:10px;
+    margin-right:52px;
+}
+.tech-logo{
+    font-size: 17px;
+}
+.head{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.exp{
+    font-size: 13px;
+    line-height: 18px;
+    color:#ededed;
+}
+
+
+@media screen and (max-width:400px){
+    .tech{
+        width:100%;
+        margin-top:-10px;
+        line-height: 28px;
+        color:rgba(197, 199, 197,0.9);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .domain{
+        list-style:none;
+        margin-top:5px;
+    }
+    .domain span{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .description{
+        list-style:none;
+        margin-top:10px;
+    }
+    .description span{
+        font-size: 13px;
+        line-height: 18px;
+        color:#ededed;
+    }
+    .logo{
+        list-style:none;
+        margin-top:10px;
+    }
+    .logo div{
+        margin-top:15px;
+        font-size: 17px;
+        font-weight: 550;
+    }
+    .brief{
+        margin-top:20px;
+    }
+    .time-line{
+        margin-top:20px;
+        display:flex;
+    }
+    .time-line span{
+        margin-right:130px;
+        font-size:20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .time-line-desc{
+        margin-top:07px;
+        display:flex;
+        margin-bottom: 30px;
+    }
+    .time-line-desc span{
+        margin-right:30px;
+        text-align:left;
+        color:#d2d4d2;
+        font-size:12px;
+        width:150px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container-1{
+        display:flex;
+        flex-wrap:wrap;
+        margin-top:20px;
+        margin-left:10px
+    }
+    .flex{
+        display:flex;
+        flex-direction: column;
+        margin-bottom:15px;
+        margin-right:47px;
+    }
+    .tech-logo{
+        font-size: 17px;
+    }
+    .head{
+        font-size: 16px;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .exp{
+        font-size: 13px;
+        line-height: 18px;
+        color:#ededed;
+    }
+}

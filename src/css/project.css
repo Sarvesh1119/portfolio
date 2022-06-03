@@ -1,0 +1,148 @@
+
+.project-container{
+    margin-left:60px;
+    height:370px;
+    width:290px;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.2);
+    margin-bottom:60px;
+}
+.box{
+    display:flex; 
+    flex-wrap:wrap;
+}
+.project-img{
+    height:45%;
+}
+.pro-img{
+    width: 289px;
+    height:163px;
+}
+.project-heading{
+    padding-top:3px;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.line{
+    width:40px;
+    height:3px;
+    background-color:#c1c484;
+    margin:auto;
+}
+.content{
+    padding-top:10px;
+    width:75%;
+    margin:auto;
+    text-align: justify;
+    font-size:14px;
+    min-height: 58px;
+    line-height:20px;
+}
+.tools{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin-left:-15px;
+}
+.tools li{
+    font-size:14px;
+    color:#d1d1cd;
+}
+.btn{
+    margin-top:30px;
+    width:80%;
+    margin-left:10%;
+    display:flex; 
+    justify-content:space-between;
+}
+
+.btn button{
+    border:none;
+    color:#ebedeb;
+    background-color:rgb(139,69,19,0.6);
+    border-radius: 8px;
+    height:24px;
+    font-size:11px;
+    padding-left:8px;
+    padding-right:8px; 
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+
+@media screen and (max-width:400px){
+.project-container{
+    margin-left:5%;
+    height:370px;
+    width:90%;
+    box-shadow: 0 4px 8px 0 rgba(255,255,255,0.2);
+    margin-bottom:25px;
+}
+.box{
+    display:flex; 
+    flex-wrap:wrap;
+}
+.project-img{
+    height:45%;
+}
+.pro-img{
+    width: 316px;
+    height:163px;
+}
+.project-heading{
+    padding-top:3px;
+    text-align:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.line{
+    width:40px;
+    height:3px;
+    background-color:#c1c484;
+    margin:auto;
+}
+.content{
+    padding-top:10px;
+    width:75%;
+    margin:auto;
+    text-align: justify;
+    font-size:14px;
+    min-height: 58px;
+    line-height:20px;
+}
+.tools{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width:80%;
+    margin-left:-15px;
+}
+.tools li{
+    font-size:14px;
+    color:#d1d1cd;
+}
+.btn{
+    margin-top:30px;
+    width:80%;
+    margin-left:10%;
+    display:flex; 
+    justify-content:space-between;
+}
+.btn button{
+    border:none;
+    color:#ebedeb;
+    background-color:rgb(139,69,19,0.6);
+    border-radius: 8px;
+    height:24px;
+    font-size:11px;
+    padding-left:8px;
+    padding-right:8px; 
+    padding-top:5px;
+    padding-bottom:5px;
+}
+}
